@@ -19,7 +19,7 @@ color: rgb(97, 255, 24);
 @</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="launchBut">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -51,7 +51,7 @@ color: rgb(255, 255, 255);</string>
      <rect>
       <x>20</x>
       <y>20</y>
-      <width>351</width>
+      <width>311</width>
       <height>131</height>
      </rect>
     </property>
@@ -67,7 +67,7 @@ color: rgb(255, 255, 255);</string>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>470</x>
+      <x>350</x>
       <y>30</y>
       <width>240</width>
       <height>50</height>
@@ -75,7 +75,7 @@ color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>27</pointsize>
+      <pointsize>35</pointsize>
      </font>
     </property>
     <property name="text">
@@ -88,19 +88,50 @@ color: rgb(255, 255, 255);</string>
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>470</x>
-      <y>90</y>
+      <x>350</x>
+      <y>100</y>
       <width>240</width>
       <height>50</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
+      <pointsize>10</pointsize>
      </font>
     </property>
     <property name="text">
      <string>Reset Countdown</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="connectBut">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>100</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Connect to Launch Pad</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>50</y>
+      <width>181</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Connection Status:</string>
     </property>
    </widget>
   </widget>

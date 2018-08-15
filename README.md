@@ -1,21 +1,18 @@
 # MiniRocket
-A GUI for a Raspberry Pi Touchscreen to Launch a Small Foam Rocket for Outreach Events
+A User Interface for a Raspberry Pi Touchscreen to Launch a Small Foam Rocket at Outreach Events
 
 ## Development Plan
 
-Goal - Stem Fest on August 13th
+Goal - Maker Fair on October 5th
 
-15 Days
+Make the thing.
 
-- Week 1
-	- Buy Materials
-	- Create UI and Basic Python Client
-	- Create Basic Python Server
-	- Review Session for Physical Design and UI Design
-- Week 2
-	- Build System
-	- Begin Testing Connection Between Touchscreen Pi Client and Server
-	- Finish Everything on the 11 & 12th
+## Installation
+
+Terminal Commands:
+
+	sudo apt-get install mosquitto
+	pip3 install paho-mqtt
 
 ## Revision History
 
@@ -24,10 +21,10 @@ None so Far
 ## Development
 
 Install Qt Designer:
-	
+
 	sudo apt-get install qt4-designer
 
-Or: 
+Or:
 
 Install Qt Creator:
 
