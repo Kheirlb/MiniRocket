@@ -1,15 +1,13 @@
 # MiniRocket
 A User Interface for a Raspberry Pi Touchscreen to Launch a Small Foam Rocket at Outreach Events
 
-## Development Plan
+## How to Setup/Operate
+Please check out our wiki! 
+https://github.com/Kheirlb/MiniRocket/wiki/MiniRocket-Procedure
 
-Goal - Maker Fair on October 5th
+## Software Installation
 
-Make the thing.
-
-## Installation
-
-Terminal Commands:
+Terminal Commands for Python Libraries:
 
 	sudo apt-get install mosquitto
 	pip3 install paho-mqtt
