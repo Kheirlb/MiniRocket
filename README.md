@@ -21,9 +21,7 @@ Install Qt Designer:
 ```
 	sudo apt-get install qt4-designer
 ```
-Or:
-
-Install Qt Creator:
+Or install Qt Creator:
 ```
 	sudo apt-get install qtcreator
 ```
