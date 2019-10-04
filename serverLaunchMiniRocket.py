@@ -42,7 +42,7 @@ client.connect(HOST, 1883, 60)
 #Setup GPIO on PI
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
-launchPin = 23
+launchPin = 18
 GPIO.setup(launchPin,GPIO.OUT)
 GPIO.output(launchPin, GPIO.input(launchPin))
 

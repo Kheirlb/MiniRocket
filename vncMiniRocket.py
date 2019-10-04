@@ -18,7 +18,7 @@ qtCreatorFile = "miniRocketv2.ui"  # Enter file here.
 #Setup GPIO on PI
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
-launchPin = 18
+launchPin = 23
 GPIO.setup(launchPin,GPIO.OUT)
 GPIO.output(launchPin, GPIO.input(launchPin))
 
