@@ -14,6 +14,7 @@ piAddress = "192.168.1.186"
 print('Imported Packages and Starting Launch VI')
 
 qtCreatorFile = "miniRocketv2.ui"  # Enter file here.
+launchPin = 18
 
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 
