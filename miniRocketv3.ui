@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>720</width>
-    <height>438</height>
+    <width>1280</width>
+    <height>715</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -61,7 +61,7 @@ color: rgb(97, 255, 24);
             <property name="minimumSize">
              <size>
               <width>0</width>
-              <height>110</height>
+              <height>150</height>
              </size>
             </property>
             <property name="font">
@@ -70,7 +70,7 @@ color: rgb(97, 255, 24);
              </font>
             </property>
             <property name="text">
-             <string>Start Countdown</string>
+             <string>START Countdown</string>
             </property>
            </widget>
           </item>
@@ -113,16 +113,16 @@ color: rgb(97, 255, 24);
             <property name="minimumSize">
              <size>
               <width>0</width>
-              <height>75</height>
+              <height>150</height>
              </size>
             </property>
             <property name="font">
              <font>
-              <pointsize>10</pointsize>
+              <pointsize>24</pointsize>
              </font>
             </property>
             <property name="text">
-             <string>Reset Countdown</string>
+             <string>RESET Countdown</string>
             </property>
            </widget>
           </item>
@@ -158,16 +158,18 @@ color: rgb(97, 255, 24);
             <property name="minimumSize">
              <size>
               <width>0</width>
-              <height>75</height>
+              <height>150</height>
              </size>
             </property>
             <property name="font">
              <font>
-              <pointsize>10</pointsize>
+              <pointsize>20</pointsize>
+              <weight>50</weight>
+              <bold>false</bold>
              </font>
             </property>
             <property name="text">
-             <string>Connect to Launch Pad</string>
+             <string>CONNECT to Launch Pad</string>
             </property>
            </widget>
           </item>
@@ -180,7 +182,7 @@ color: rgb(97, 255, 24);
         <property name="minimumSize">
          <size>
           <width>0</width>
-          <height>220</height>
+          <height>400</height>
          </size>
         </property>
         <property name="font">
