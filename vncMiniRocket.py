@@ -5,7 +5,7 @@ from PyQt5 import QtCore, QtWidgets, QtGui, Qt, uic
 import paho.mqtt.client as mqtt
 import paho.mqtt.publish as publish
 from PyQt5.QtGui import QTextCursor
-#import RPi.GPIO as GPIO
+import RPi.GPIO as GPIO
 
 #When Connected to RP Router OpenWrt 192.168.1.1:
 #karl's computer 192.168.1.115
@@ -47,15 +47,6 @@ class Window(QtWidgets.QMainWindow, Ui_MainWindow):
         self.timer.timeout.connect(self.displayTime)
         #self.timer.start()
 
-    def launch():
-        #GPIO.output(launchPin, True)
-        time.sleep(1)
-        closeMainValve()
-        print('launch function called')
-
-    def closeMainValve():
-        GPIO.output(launchPin, False)
-
     def startCountDef(self):
         self.timeLabel.setText('00:05')
         self.timer.start()
@@ -74,9 +65,9 @@ class Window(QtWidgets.QMainWindow, Ui_MainWindow):
             self.sec = self.sec - 1
 
     def launchDef(self):
-        #GPIO.output(launchPin, True)
+        GPIO.output(launchPin, True)
         time.sleep(1)
-        #GPIO.output(launchPin, False)
+        GPIO.output(launchPin, False)
         self.timeLabel.setText('00:05')
         print('Launch Function Called')
 
