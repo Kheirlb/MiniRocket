@@ -13,7 +13,7 @@ piAddress = "192.168.1.186"
 
 print('Imported Packages and Starting Launch VI')
 
-qtCreatorFile = "miniRocketv2.ui"  # Enter file here.
+qtCreatorFile = "miniRocketv3.ui"  # Enter file here.
 
 #Setup GPIO on PI
 GPIO.setmode(GPIO.BCM)
